@@ -1,0 +1,93 @@
+.about_us{background: url("../images/about_bnr.jpg");height: 50vh;width: 100%;background-size: cover;
+background-position: center center;background-repeat: no-repeat;}
+.about_us_services{background: url("../images/services.jpg");height: 50vh;width: 100%;background-size: cover;
+background-position: center center;background-repeat: no-repeat;}
+.about_overlay_services{width: 100%;height: 50vh;position: absolute;top: 0;left: 0;background-color: rgba(60,59,63,.6);}
+.about_overlay{width: 100%;height: 50vh;position: absolute;top: 0;left: 0;background-color: rgba(60,59,63,.6);}
+.custom_bnr_txt{font-family: 'Roboto', sans-serif;font-size: 42px;text-transform: uppercase;font-weight: 700;color: #fff;padding-top: 20%;}
+
+/*best of me*/
+.best_me{padding: 60px 0 60px 0;background-color: #f0efec;}
+.bst_sub_txt{font-family: 'Source Sans Pro', sans-serif;font-weight: 400;font-size: 20px;color: #454545;margin: 0px;}
+
+/*slider*/
+.img_set{width: 220px;height: 150px;}
+.about_slider{padding: 60px 0 60px 0;}
+#mixedSlider {position: relative;}
+#mixedSlider .MS-content {white-space: nowrap;overflow: hidden;margin: 0 5%;}
+#mixedSlider .MS-content .item {display: inline-block;width: 33.3333%;position: relative;vertical-align: top;
+overflow: hidden;height: 100%;white-space: normal;padding: 0 10px;}
+@media (max-width: 991px) {
+#mixedSlider .MS-content .item {width: 50%;}
+}
+@media (max-width: 767px) {
+#mixedSlider .MS-content .item {width: 100%;}
+}
+#mixedSlider .MS-content .item .imgTitle {position: relative;}
+#mixedSlider .MS-content .item .imgTitle img {height: auto;width: 100%;}
+mixedSlider .MS-content .item a:hover {text-shadow: 0 0 1px grey;}
+#mixedSlider .MS-controls button {position: absolute;border: none;background-color: transparent;outline: 0;
+font-size: 50px;top: 100%;color: rgba(0, 0, 0, 0.4);transition: 0.15s linear;}
+#mixedSlider .MS-controls button:hover {color: rgba(0, 0, 0, 0.8);}
+@media (max-width: 992px) {
+#mixedSlider .MS-controls button {font-size: 30px;}
+}
+@media (max-width: 767px) {
+#mixedSlider .MS-controls button {font-size: 20px;}
+}
+#mixedSlider .MS-controls .MS-left {left: 45%;}
+@media (max-width: 767px) {
+#mixedSlider .MS-controls .MS-left {left: -10px;}
+}
+#mixedSlider .MS-controls .MS-right {right: 45%;}
+@media (max-width: 767px) {
+#mixedSlider .MS-controls .MS-right {right: -10px;}
+}
+
+
+/*meet the team*/
+.meet_the_team{padding: 60px 0 60px 0;}
+.profile_grp{padding-top: 20px;padding-bottom: 40px;}
+.team_set{width:60%;}
+
+/*our client*/
+.our_client{background-color:#f15822;padding: 60px 0 60px 0;}
+
+/*focus area*/
+.focus_area{padding: 60px 0 60px 0;}
+
+/*about contact*/
+.about_contact{background-color:#f5f5f5;padding: 60px 0 60px 0;}
+
+/*contact page*/
+.contact_details{padding: 60px 0 60px 0;}
+.about-border {margin: 10px auto;display: block;width: 80px;height: 3px;background: #f15822;}
+
+/*enquiry form*/
+.enquiry_form{padding: 60px 0 60px 0;}
+.text_area{resize: none;height: 190px !important;border-radius: 0px !important;}
+#map {height: 400px;width: 100%;}
+.map_set{margin-top:30px;}
+.fa_icn_contact{color: #f15822;font-size: 14px;padding-right: 10px;}
+
+/*new area*/
+.new_area{background-color:#f15822;padding: 60px 0 60px 0;}
+.new_div{padding: 30px;background-color:#fff;}
+
+/*opportunities*/
+.opportunities{padding: 60px 0 60px 0;}
+.opt_txt1{font-family: 'Source Sans Pro', sans-serif;font-weight: 600;font-size: 20px;color: #454545;margin: 0px;}
+.opt_txt{font-family: 'Source Sans Pro', sans-serif;font-weight: 500;font-size: 16px;color: #77787e;margin: 0px;}
+
+/*services*/
+.services{padding: 60px 0 60px 0;}
+.block{padding: 30px;height: 305px;border: 1px solid #494747;}
+.block:hover{border: 2px solid #f15822;}
+.services_img{width:40%;padding-bottom:20px}
+
+/*work*/
+.our_work{padding: 60px 0 60px 0;}
+.img_div{padding: 30px;background-color:#77787e2e;height: 310px;}
+.img_div1{padding: 30px;background-color:#77787e2e;}
+.other_work{padding-top: 30px;}
+.work_title{font-family: 'Roboto', sans-serif;font-size: 18px;font-weight: 500;color: #f15822;margin: 0px;}
